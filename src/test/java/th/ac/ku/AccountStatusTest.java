@@ -10,7 +10,7 @@ public class AccountStatusTest{
     void check_Valid_User_Account_Result_Should_Be_True(){
         boolean expectedResult = true;
         Account account = new Account(true);
-        String accountNumber = "7563956391";
+        String accountNumber = "2573956446";
 
         boolean actualResult = account.checkSuspendedAccount(accountNumber);
 
@@ -21,7 +21,7 @@ public class AccountStatusTest{
     void check_Invalid_User_Account_Result_Should_Be_False(){
         boolean expectedResult = false;
         Account account = new Account(false);
-        String accountNumber = "938451097";
+        String accountNumber = "123456789";
 
         boolean actualResult = account.checkSuspendedAccount(accountNumber);
 

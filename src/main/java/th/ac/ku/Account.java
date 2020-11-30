@@ -3,7 +3,7 @@ package th.ac.ku;
 import java.util.Arrays;
 
 public class Account {
-    private String[] validAccountList = {"7563956391", "365916394"};
+    private String[] validAccountList = {"25739564461", "1233333456"};
 
     private final boolean accountStatus;
 
